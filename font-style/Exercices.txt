@@ -1,0 +1,15 @@
+- Utilisez le sélecteur qu'il faut pour donner une taille de texte de 95% à tous les éléments de la page
+(sans modifier le html)
+
+- Utilisez le sélecteur qu'il faut pour rendre tous les titres h1, h2 et h3 de couleur rouge
+(sans modifier le html)
+
+- Utilisez le sélecteur qu'il faut pour mettre un fond d'écran bleu au dernier article de la section
+(sans modifier le html)
+
+- Utilisez le sélecteur qu'il faut pour enlever le "souligner" des liens <a> du menu
+  Faites le de 3 façons différentes. Testez puis commenter ce que vous avez fait au fur et à mesure.
+(sans modifier le html)
+
+- Utilisez le sélecteur qu'il faut pour que les paragraphes de l'article "Formation" et celui du aside soient en gras. 
+(Modifiez le html pour ajouter la classe ou l'id nécessaire selon ce qui est le plus pertinent)

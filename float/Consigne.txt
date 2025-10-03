@@ -1,0 +1,7 @@
+- Copier le html
+- Utilisez les propriétés float et width pour que la page ressemble au Screenshot
+- Indications :
+	- Nav à gauche
+	- section à côté de <nav>. Ajoutez un div qui contient les sections et donnez lui le bon positionnement
+	- aside est à droite
+	- footer est en bas

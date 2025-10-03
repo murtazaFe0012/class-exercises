@@ -1,0 +1,34 @@
+*{
+    font-size: 95%;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+section  article + article + article {
+    background-color: blue;
+}
+
+/* Je sélectionne l'élément <a> qui est descendant de l'élément avec l'ID "menu" */
+#menu a {
+    text-decoration: none;
+}
+
+/* Je sélectionne tous les éléments <a> qui ont un attribut href */
+
+a[href] {
+    text-decoration: none;
+}
+
+
+/* Je sélectionne les éléments <a> qui sont descendants d’un élément <li> */
+li a {
+    text-decoration: none;
+}
+
+article > .bold-para, aside > .bold-para{
+    font-weight: 800;
+    color: yellow;
+}
+

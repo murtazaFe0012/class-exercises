@@ -1,0 +1,9 @@
+Exercice 1
+
+Intégrez de façon à ce que votre site soit conforme au screenshot. Vous ne pouvez pas toucher au Html.
+La barre de navigation doit apparaître tout le temps en haut de l'écran.
+Le footer doit apparaître tout le temps en haut de l'écran.
+(Lorqu'on scrolle)
+
+
+
