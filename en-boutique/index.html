@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Sélecteurs CSS</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header class="main-header">
+        <h1>Boutique en Ligne</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#promotions">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="products">
+            <h2>Nos Produits</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Ordinateur Portable</h3>
+                    <p class="price">899€</p>
+                    <p class="description">Puissant ordinateur pour le travail et les jeux</p>
+                    <button class="buy-btn">Acheter</button>
+                </div>
+                <div class="product-card featured">
+                    <h3>Smartphone Premium</h3>
+                    <p class="price">699€</p>
+                    <p class="description">Dernier modèle avec appareil photo haute résolution</p>
+                    <button class="buy-btn">Acheter</button>
+                </div>
+                <div class="product-card">
+                    <h3>Tablette</h3>
+                    <p class="price">399€</p>
+                    <p class="description">Parfaite pour la lecture et le divertissement</p>
+                    <button class="buy-btn">Acheter</button>
+                </div>
+                <div class="product-card">
+                    <h3>Casque Audio</h3>
+                    <p class="price">199€</p>
+                    <p class="description">Son haute qualité et réduction de bruit</p>
+                    <button class="buy-btn">Acheter</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Newsletter</h2>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Votre email" required autofocus>
+                <button type="submit">S'abonner</button>
+            </form>
+        </section>
+
+        <section class="features">
+            <h2>Pourquoi nous choisir ?</h2>
+            <ul class="features-list">
+                <li>Livraison gratuite</li>
+                <li>Garantie 2 ans</li>
+                <li>Support 24/7</li>
+                <li>Paiement sécurisé</li>
+                <li>Retour facile</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Boutique en Ligne. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
