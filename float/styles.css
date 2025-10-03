@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: large;
+}
+
+.container{
+    margin: 10px auto;
+}
+
+.container > nav{
+    float: left;
+    width: 30%;
+    display: inline-block;
+    border: black 1px solid;
+
+}
+
+.container > div{
+    float: left;
+    width: 41.5%;
+    display: inline-block;
+    border: black 1px solid;
+}
+
+
+.container aside{
+    float: left;
+    width: 28%;
+    position : fixed;
+    right : 0;
+    display: inline-block;
+    border: black 1px solid;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
