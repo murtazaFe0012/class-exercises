@@ -1,0 +1,7 @@
+Exercice 3
+
+Intégrez de façon à ce que votre site soit conforme au screenshot. 
+Vous  ne devez pas toucher au Html.
+
+
+
