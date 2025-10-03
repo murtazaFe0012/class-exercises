@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f9f9f9;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(184, 222, 96);
+}
+
+.main-header {
+    
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-header ul {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+    list-style: none;
+    place-content: 20px;
+}
+
+li a {
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(190, 231, 219);
+    padding: 10px;
+    border-radius: 5px;
+}
+li a:hover {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    transition: 0.5s;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.products {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.products h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+    justify-content: flex;
+    text-align: center;
+    
+}
+
+.product-grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f3feef;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card.featured {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    background-color: #f3feef;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #6bb2d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.buy-btn:hover {
+    background-color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.newsletter {
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+section form input[type="email"]:focus {
+    border: 2px solid #4CAF50;
+    height: 25px;
+    width: 30%;;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+.newsletter-form button {
+    background-color:#6bb2d0;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.newsletter-form button:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.features {
+    max-width: 60%;
+    margin: 40px auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.features-list {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+ul li:nth-child(odd){
+    background-color: #bae7bc;
+}
+.features-list li:nth-child(even){
+    background-color: none;
+}
+
+.features-list li{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight:500;
+    font-style: italic;
+
+}
+.features-list li:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    overflow: hidden;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4CAF50, #6bb2d0); /* Example gradient */
+    opacity: 0.2; /* Soft overlay */
+    z-index: 0; /* Behind the text */
+}
+footer p{
+    position: relative;
+    z-index: 1;
+}
