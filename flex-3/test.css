@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.flex-container{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(165, 167, 168);
+    border:1px solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100px;
+}
+header h1{
+    margin: 0;
+}
+
+.flex-area{
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    border: 1px solid;
+    margin: 3px auto;
+    background-color: rgb(165, 167, 168);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    border: 1px solid;
+    padding: 3px;
+    margin: 3px;
+}
+article{
+    border: 1px solid;
+    padding: 3px;
+    margin: 3px;
+    max-width: 48%;
+}
+
+.featured-article{
+    max-width: 100%;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.article-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+aside{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border: 1px solid;
+    padding: 3px;
+}
+
+aside h1{
+    margin: 0;
+}
+
+.box{
+    border: 1px solid;
+    height: 20%;
+    width: 95%;
+    margin: 3px;
+}
+
+footer{
+    margin: 3px auto;
+    border: 1px solid;
+    padding: 3px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color:rgb(165, 167, 168);
+}
+footer h1{
+    margin: 0;
+}
+
